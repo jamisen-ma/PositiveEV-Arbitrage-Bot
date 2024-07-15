@@ -1,0 +1,13 @@
+# Ignore all files in this directory
+*
+
+# Do not ignore .gitignore file
+!.gitignore
+
+# Ignore specific files
+cookie.txt
+controller.py
+
+# Unignore all other files
+!*/
+!**/*
