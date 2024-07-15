@@ -1,8 +1,29 @@
-# Reading the CSV data
 import pandas as pd
-df = pd.read_csv("sample_projections.csv")
+def convert_response_to_csv(data):
+    games = data['games']
 
-# Sorting the dataframe by 'relationships.league.data.type'
-sorted_df = df.sort_values(by='relationships.league.data.id')
+    # Flattening the JSON structure
+    games_df = pd.json_normalize(
+        games,
+        sep='_',
+        record_path=['sportsbooks', 'odds'],
+        meta=[
+            'id',
+            'sport',
+            'league',
+            ['teams', 'away', 'id'],
+            ['teams', 'away', 'name'],
+            ['teams', 'away', 'abbreviation'],
+            ['teams', 'home', 'id'],
+            ['teams', 'home', 'name'],
+            ['teams', 'home', 'abbreviation'],
+            'start',
+            'live',
+            ['sportsbooks', 'id'],
+            ['sportsbooks', 'name']
+        ],
+        meta_prefix='meta_',
+        errors='ignore'
+    )
 
-sorted_df.to_csv("sample_projections.csv", index=False)
+    return games_df

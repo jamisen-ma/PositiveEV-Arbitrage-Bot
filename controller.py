@@ -15,9 +15,9 @@ def verify_location(token):
 
     # Return the response from the PrizePicks API
     return jsonify(response.json()), response.status_code
-def place_wager(token, cookie_file_path):
+def place_wager(data):
     # Read the cookie from the file
-    with open(cookie_file_path, 'r') as file:
+    with open("cookie.txt", 'r') as file:
         cookie = file.read().strip()
 
     # Update the headers with the cookie
@@ -25,7 +25,6 @@ def place_wager(token, cookie_file_path):
     headers['Cookie'] = cookie
 
     # Update the data template with the token
-    data = DATA_TEMPLATE.copy()
 
     response = requests.post(URL, headers=headers, json=data)
 
