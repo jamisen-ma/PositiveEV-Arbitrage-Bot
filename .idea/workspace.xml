@@ -5,25 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acc5613f-f9f9-4383-9bab-5080765556c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/APIservice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrizePicksOdds.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrizePicks_projections.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getPrizePicks_projections.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mainScript.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlb.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/positiveEVfinder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample_projections1.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorted_mlb.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/united_states_major_league_soccer.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookie.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cookie.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_cleaning.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_cleaning.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getodds.py" beforeDir="false" afterPath="$PROJECT_DIR$/getodds.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrizePicks_projections.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Sample CSV Data/PrizePicks_projections.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mlb.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Sample CSV Data/mlb.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/united_states_major_league_soccer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Sample CSV Data/united_states_major_league_soccer.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +149,7 @@
       <option name="presentableId" value="Default" />
       <updated>1720914832300</updated>
       <workItem from="1720936147120" duration="33000" />
-      <workItem from="1720936185749" duration="33143000" />
+      <workItem from="1720936185749" duration="33465000" />
     </task>
     <servers />
   </component>

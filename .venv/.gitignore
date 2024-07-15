@@ -1,2 +1,8 @@
-cookie.txt
-controller.py
+# Ignore everything
+*
+
+# Unignore the .gitignore file itself
+!.gitignore
+
+# Unignore the "Sample CSV files" directory
+!Sample CSV files/
