@@ -10,7 +10,7 @@ Welcome to the PositiveEV & Arbitrage Bot! This tool is designed to help you tak
 
 ## API Endpoints
 
-To access the public endpoints, you will need an API key. Please email [jamisen.ma@gmail.com](mailto:jamisen.ma@gmail.com) to request access or obtain an API key.
+To access the public endpoints, you will need an API key. Please email [jamisen.ma@gmail.com](mailto:jamisen.ma@gmail.com) to request access or to obtain an API key.
 
 ## How It Differs From Competitors
 
